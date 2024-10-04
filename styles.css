@@ -1,0 +1,97 @@
+:root {
+    --main-color: #3498db;
+    --secondary-color:  #ae9a55;
+    --font-size-large: 24px;
+}
+
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+background-color:  rgb(194, 212, 244);
+margin: 20px;
+
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(194, 212, 244);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 17, 75);
+    text-align: center;
+    padding:1px
+}
+.intro{
+
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 100;
+    color: rgb(9, 52, 144);
+    text-align: center;
+    padding: 5px;
+}
+
+
+.flex-container{
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+}
+
+.flex-item{
+
+    background-color: #76b4dd;
+    padding: 10px;
+    width: 100px;
+    color: rgb(2, 44, 71);    
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px;
+}
+
+.grid-item{
+
+    background-color: rgb(95, 181, 234); 
+    padding: 20px;
+    text-align: center;
+    color:rgb(2, 44, 71)
+}
+
+
+.relative-container{
+
+position: relative;
+background-color: #69a8eb;
+padding: 20px;
+margin-top: 20px;
+color: rgb(2, 44, 71);
+text-align: center;
+}
+
+.absolute-box{
+
+position: absolute;
+top: 10px;
+left: 20px;
+background-color: rgb(53, 158, 223);
+color: rgb(2, 44, 71);
+padding: 10px;
+
+}
+
+
+.footer{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 10px;
+    color: rgb(9, 52, 144);
+    font-weight: 100;
+    font-style: italic;
+}
